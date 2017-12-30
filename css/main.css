@@ -31,19 +31,22 @@ footer li img {
 }
 
 .paragraph {
-  width: 600px;
+  width: 700px;
      margin: auto;
+     font-size: 125%;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
    }
 #footer-content {
      background: CornflowerBlue;
      min-width:100%;
      position:relative;
 		margin:0 auto;
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    overflow:hidden
+    overflow:hidde
 
 }
 
