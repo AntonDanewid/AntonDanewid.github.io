@@ -27,6 +27,8 @@ footer .col-sm-8 {
 
 footer ul {
   list-style: none;
+  font-size: 100px;
+
 }
 
 footer li img {
@@ -46,13 +48,14 @@ footer li img {
    }
 #footer-content {
      background: CornflowerBlue;
-     min-width:100%;
-     position:relative;
-		margin:0 auto;
-    left: 0;
-    bottom: 0 auto;
-    width: 100%;
-    overflow:hidde
+     position: absolute;
+     right: 0rem;
+     bottom: 0;
+     left: 0;
+     padding: 1rem;
+     text-align: left;
+    
+
 
 }
 
@@ -62,3 +65,8 @@ footer li img {
   background-image: none;
   background-repeat: no-repeat;
  }
+
+ footer li {
+    font-size: 100px;
+ }
+ 
