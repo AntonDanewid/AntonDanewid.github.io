@@ -1,6 +1,6 @@
 .img-circle {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 70%;
 }
 
@@ -42,6 +42,7 @@ footer li img {
   background-image: none;
   background-repeat: no-repeat;
   width: 100%;
+  font-size: 150%;
  }
 
  .navbar-default a {
