@@ -41,10 +41,12 @@ footer li img {
   background-color:CornflowerBlue;
   background-image: none;
   background-repeat: no-repeat;
+  width: 100%;
  }
 
  .navbar-default a {
    color: white;
+   
   
   }
 
@@ -58,11 +60,9 @@ footer li img {
 
 footer {
   position: absolute;
-  margin-top: 800px;
   bottom: 0px;
   height: 200px;
   width: 100%;
-  clear: both;
   background-color: cornflowerblue;
 }
 body {
@@ -75,6 +75,6 @@ body {
   padding-bottom: 200px;
 }
 
-.myContainer {
-
+.jumbatron {
+  background-color: cornflowerblue;
 }
