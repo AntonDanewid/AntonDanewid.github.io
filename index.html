@@ -1,115 +1,280 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    </head>
 
-<head 
-      
-  style="background-color:blue">
-
-
-  <meta charset="UTF-8">
-  <meta name="description" content="Anton Danewid personal webpage">
-  <meta name="keywords" content="Anton Danewid, Danewid, Anton, Resumé, Reusme">
-  <meta name="author" content="Anton Danewid">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
 
 
-  <title>Anton Danewid</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+        <nav class="navbar sticky-top" style="height:60px;">
+            <div class="text-center" style="width:100%;">
+                <a class="scroll" href="#about">ABOUT</a>
+                <a class="scroll" href="#timeline">TIMELINE</a>
+                <a class="scroll" href="#skills">SKILLS</a>
+                <a class="scroll" href="#projects">PROJECTS</a>
+                <a class="scroll" href="#contact">CONTACT</a>
+                <a href="Anton_Danewid-resume.pdf" target="new">RESUMÉ</a>
+            </div>
 
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
+        </nav>
 
-
-  <link rel="stylesheet" type="text/css" href="main.css">
-
-</head>
-
-<body>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-
-      </div>
-      <ul class="nav navbar-toggleable">
-        <li>
-          <a href="Anton_Danewid-resume.pdf">Resumé</a>
-        </li>
-        <li>
-          <a href="https://github.com/AntonDanewid">GitHub</a>
-        </li>
-    </div>
-  </nav>
-  <div class="test">
-    <div class="text-center">
-      <img class="img-circle" src="anton_danewid.jpg" alt="Anton Danewid picture">
-      <h1>
-        <b> Anton Danewid </b>
-      </h1>
-      <div class="text-justify">
-        <div>
-          <p class="paragraph">Hello there, my name is Anton Danewid. I’m currently a student at Lund University’s Master of Computer Science
-            and Engineering program.
-            <br>
-            <br>Ever since I was a young boy and played with Lego, I have been passionate about technology. This passion is what
-            eventually lead me on the path I am on today, a masters degree in computer science and engineering. In the fall
-            of 2017, I participated in an exchange program at the University of Waterloo, ON, Canada. At Waterloo, I took
-            advanced courses in Artificial Intelligence, User Interfaces, and Requirements Engineering.
-            <br>
-            <br> During my time in Lund, I've been a lab instructor in several courses, whose content include digital circuit
-            design and embedded software. I have also taught children in the ages between 7 and 12 how to program with visual
-            programming. I also have experience in several programming languages, which you will find detailed in my resumé
-            which is linked above along with my work experience.
-            <br>
-            <br>If you want to contact me, you will find my contact information below. On my GitHub page, you will find several
-            of my coding projects in more detail. </p>
-
-
-
-          </p>
+        <div class="text-center cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="position:relative;top:-60px;">
+            <main role="main" class="inner cover mt-auto mb-auto">
+                <img src="images/anton.jpg" class="mb-3">
+                <h1 class="mb-0">Anton Danewid</h1>
+                <p>M.Sc.Eng. Candidate in Computer Science and Engineering at Lund University</p>
+            </main>
         </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div>
-    <footer>
-      <div id="footer-content">
-
-        <div class="row">
-          <ul class="listStyle">
-            <li>
-              <h2>Contact</h2>
-            </li>
-            <li>
-              <h4>
-                <img src="mail.png">
-                <a href="mailto:anton.danewid@gmail.com"> anton.danewid@gmail.com</a>
-              </h4>
-            </li>
-            <li>
-              <h4>
-                <img src="github.png">
-                <a href="https://github.com/AntonDanewid"> GitHub</a>
-              </h4>
-
-            </li>
-            <li>
-              <h4>
-                <img src="in.png" href="https://www.linkedin.com/in/anton-danewid-523012141" />
-                <a href="https://www.linkedin.com/in/anton-danewid-523012141/">in/antondanewid</a>
-              </h4>
-
-            </li>
 
 
 
-          </ul>
+
+        <div class="main text-justify">
+            <section id="about">
+                <div class="container mt-3 col-md-10 col-sm-11">
+                    <h2>About Me</h2>
+
+                    <p>Hello there, I'm Anton! Ever since I was a young boy and played with Lego, I have been passionate about technology. This passion is what eventually lead me on the path I am on today, a masters degree in computer science and engineering.
+                    </p>
+
+                    <p>Blah blah hobbies</p>
+                </div>
+            </section>
+
+
+            <section id="timeline">
+                <div class="container mt-5 col-md-10 col-sm-11">
+                    <h2>Timeline</h2>
+
+                    <div class="timeline">
+                        <ul>
+                            <li>
+                                <div>
+                                    Summer 2018<br/>
+                                    Software Developer at Axis Communications
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    September 2017<br/>
+                                    Exchange to University of Waterloo
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    September 2013<br/>
+                                    Started school at Lund University
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container mt-5 col-md-10 col-sm-11">
+                    <h2>Skills</h2>
+
+                    <h4 class="mb-3 text-center">Languages</h4>
+
+                    <div class="row text-center">
+                        <div class="col-sm-2 ml-auto mr-auto mb-3">
+                            <img src="images/java_logo.png" class="logo">
+                            <h5>Java</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/python_logo.png" class="logo">
+                            <h5>Python</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/cpp_logo.png" class="logo">
+                            <h5>C/C++</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/csharp_logo.png" class="logo">
+                            <h5>C#</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/assembly_logo.png" class="logo">
+                            <h5>Assembly</h5>
+                        </div>
+                    </div>
+                    <div class="row text-center mb-3">
+                        <div class="col-sm-2 ml-auto mr-auto mb-3">
+                            <img src="images/sql_logo.png" class="logo">
+                            <h5>SQL</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/html_logo.png" class="logo">
+                            <h5>HTML</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/css_logo.png" class="logo">
+                            <h5>CSS</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/js_logo.png" class="logo">
+                            <h5>Javascript</h5>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3 text-center">Technologies</h4>
+
+                    <div class="row text-center">
+                        <div class="col-sm-2 ml-auto mr-auto mb-3">
+                            <img src="images/git_logo.png" class="logo">
+                            <h5>Git</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/linux_logo.png" class="logo">
+                            <h5>Linux</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/android_logo.png" class="logo">
+                            <h5>Android</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/angular_logo.png" class="logo">
+                            <h5>Angular.js</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/react_logo.png" class="logo">
+                            <h5>React.js</h5>
+                        </div>
+                    </div>
+                    <div class="row text-center mb-3">
+                        <div class="col-sm-2 ml-auto pt-3 mb-3">
+                            <h5>Swing</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto pt-3 mb-3">
+                            <h5>VHDL</h5>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3 text-center">Topics</h4>
+                    <div class="row text-center">
+                        <div class="col-sm-2 ml-auto mb-3">
+                            <img src="images/nn_logo.png" class="logo">
+                            <h5>Machine Learning</h5>
+                        </div>
+                        <div class="col-sm-2 mr-auto mb-3">
+                            <img src="images/interface_logo.png" class="logo">
+                            <h5>User Interfaces</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="container mt-5 col-md-10 col-sm-11">
+                    <h2>Projects</h2>
+                    <div class="row mt-3 mb-0 text-left row-eq-height">
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Axis Camera Project</h5>
+                                <p class="card-text">
+                                    Built a system for receiving surveillance images from cameras over a network. Tasks included UI development with Swing and server implementation, including concurrency issues that arose.
+                                </p>
+                                <p class="card-text">
+                                    <a href="">View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">XL</h5>
+                                <p class="card-text">
+                                    A mockup of Excel. Implemented in Java with strong focus on MVC design.
+                                </p>
+                                <p class="card-text">
+                                    <a href="">View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Hospital Records System</h5>
+                                <p class="card-text">
+                                    Implemented a hospital records system with a certificate security system. Tasks included creating a Certificate Authority and building the back end for the system in Java.
+                                </p>
+                                <p class="card-text">
+                                    <a href="">View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 text-left row-eq-height">
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Painting Program</h5>
+                                <p class="card-text">
+                                    Implemented a painting program in Java to learn more about Swing.
+                                </p>
+                                <p class="card-text">
+                                    <a href="">View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Timing System</h5>
+                                <p class="card-text">
+                                    Worked in a project in a medium sized team to develop a stopwatch and timing application.
+                                </p>
+                                <p class="card-text">
+                                    <a href="">View on Github</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kattis Problems (Ongoing)</h5>
+                                <p class="card-text">
+                                    Solving problems on <a href="https://open.kattis.com/" target="new">Kattis</a> to improve overall problem-solving skills, as well as improving proficiency with different programming languages.
+                                </p>
+                                <p class="card-text">
+                                    <a href="https://open.kattis.com/users/anton-danewid" target="new">View Profile</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 text-left row-eq-height">
+                        <div class="card p-0 col-md-4 mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Game Development (Ongoing)</h5>
+                                <p class="card-text">
+                                    Currently learning how to use Unity for game development. Learning about AI algorithms such as A* as well as modelling 3D objects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container mt-5 col-md-10 col-sm-11">
+                    <h2>Contact</h2>
+                    <p class="mb-5">
+                        <i class="fa fa-envelope"></i><a href="mailto:anton.danewid@gmail.com">anton.danewid@gmail.com</a><br/>
+                        <i class="fa fa-github"></i><a href="https://github.com/AntonDanewid" target="new">AntonDanewid</a><br/>
+                        <i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/anton-danewid-523012141/" target="new">/in/antondanewid</a>
+                    </p>
+                </div>
+            </section>
+
         </div>
-      </div>
-    </footer>
-  </div>
 
-</body>
-</html
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script src="static/custom.js"></script>
+        <script src="static/timeline.js"></script>
+    </body>
+</html>
